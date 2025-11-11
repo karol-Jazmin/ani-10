@@ -1,0 +1,12 @@
+.menu{
+    width: 200px;
+}
+.submenu{
+    max-height: 0;
+    overflow: hidden;
+    background-color: lightgray;
+    transition: max-height 0.5s ease;
+}
+.menu:hover .submenu{
+    max-height: 100px;
+}

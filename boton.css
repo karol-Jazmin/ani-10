@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    flex-direction: column;
+    text-align: center;
+}
+.boton{
+    background-color: #025a94;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.boton:hover{
+    background-color: #021553;
+    transform: scale(1.1);
+}
